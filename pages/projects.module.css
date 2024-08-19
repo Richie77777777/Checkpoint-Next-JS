@@ -1,0 +1,26 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .project-item {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
